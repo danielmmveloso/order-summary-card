@@ -1,0 +1,47 @@
+body{
+    background-image: url("/images/pattern-background-mobile.svg");
+    background-repeat: no-repeat;
+    font-family: 'Red Hat Display', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    border: 1px solid black;
+    text-align: center;
+    width: 330px;
+    word-break: break-word;
+}
+
+#img-up{
+    width: 100%;
+}
+h1{
+    font-weight: 900;
+    font-size: 25px;
+    color: hsl(223, 47%, 23%);
+}
+
+p{
+    color: hsl(224, 23%, 55%);
+    font-size: 16px;
+    padding: 0 30px
+}
+
+.inf-con{
+    border: 1px solid black;
+    background: hsl(225, 100%, 98%);
+}
+
+
+.attribution {
+    font-size: 11px; 
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
+
