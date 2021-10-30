@@ -1,5 +1,5 @@
 body{
-    background-image: url("/images/pattern-background-mobile.svg");
+    background-image: url("images/pattern-background-mobile.svg");
     background-repeat: no-repeat;
     font-family: 'Red Hat Display', sans-serif;
     display: flex;
@@ -107,7 +107,7 @@ p{
 
 @media screen and (min-width: 376px){
     body{
-        background-image: url("/images/pattern-background-desktop.svg");
+        background-image: url("images/pattern-background-desktop.svg");
     }
 
     .container{
@@ -123,7 +123,7 @@ p{
 
 @media screen and (min-width: 376px){
     body{
-        background-image: url("/images/pattern-background-desktop.svg");
+        background-image: url("images/pattern-background-desktop.svg");
         background-size: cover;
     }
 }
